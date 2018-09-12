@@ -1,0 +1,1 @@
+cf push -f manifest.yml -c "ln -s libgdiplus.so gdiplus.dll && {HOME} && dotnet ./multibuildpack.dll --server.urls http://0.0.0.0:${PORT"}
